@@ -37,3 +37,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
+
+/* custom */
+#define DEBOUNCE 1
+#define USB_POLLING_INTERVAL_MS 1
+#define MATRIX_IO_DELAY 1
