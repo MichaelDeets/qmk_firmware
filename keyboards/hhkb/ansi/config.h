@@ -28,17 +28,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 /* disable debug print */
-//#define NO_DEBUG
+#define NO_DEBUG
 
 /* disable print */
-//#define NO_PRINT
+#define NO_PRINT
 
 /* disable action features */
 //#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+#define NO_ACTION_TAPPING
+#define NO_ACTION_ONESHOT
 
 /* custom */
 #define DEBOUNCE 1
 #define USB_POLLING_INTERVAL_MS 1
 #define MATRIX_IO_DELAY 1
+#define LAYER_STATE_8BIT
