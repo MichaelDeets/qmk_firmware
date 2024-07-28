@@ -6,7 +6,7 @@ SRC = matrix.c
 DEFAULT_FOLDER = hhkb/ansi/32u4
 
 AVR_USE_MINIMAL_PRINTF = yes
-BOOTLOADER = atmel-dfu
+BOOTLOADER = qmk-hid
 BOOTMAGIC_ENABLE = no
 COMMAND_ENABLE = no
 CONSOLE_ENABLE = no
